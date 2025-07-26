@@ -140,7 +140,7 @@ def ana_grafigi_olustur_yeni(x_degerleri, combined_curve,
         line_color='white', 
         line_width=4, 
         opacity=0.9,
-        annotation_text="⚖️ Nötr Çizgi",
+        annotation_text="Nötr Çizgi",
         annotation_position="right",
         annotation=dict(
             font=dict(color='white', size=12),

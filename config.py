@@ -1,13 +1,11 @@
 # config.py
 
-# Varsayılan parametre değerleri
 VARSAYILAN_PARAMETRELER = {
     'gecis_genisligi': 0.050000,
     'min_cap': -0.750000,
     'max_cap': 0.750000
 }
 
-# Hazır modlar - sadece boş Custom
 HAZIR_MODLAR = {
     'Custom': {
         'isim': 'Custom Settings',
@@ -33,7 +31,6 @@ HAZIR_MODLAR = {
     }
 }
 
-# default ayarları
 BINANCE_DEFAULT = {
     'sistem_versiyonu': '2.0',
     'olusturulma_tarihi': '2025-01-01T00:00:00',
@@ -69,7 +66,6 @@ BINANCE_DEFAULT = {
     }
 }
 
-# Arayüz Konfigürasyonu - 6 digit support
 ARAYUZ_AYARLARI = {
     'sidebar_genisligi': 350,
     'ana_grafik_yuksekligi': 600,
@@ -84,7 +80,6 @@ ARAYUZ_AYARLARI = {
     }
 }
 
-# Grafik renkleri
 RENKLER = {
     'short_curve': '#dc3545',      
     'long_curve': '#28a745',       
@@ -96,7 +91,6 @@ RENKLER = {
     'cap_lines': '#ff6b6b'         
 }
 
-# Türkçe metinler - icon'sız
 METINLER = {
     'baslik': 'Borsa Funding Fee Ayarlama Sistemi',
     'aciklama': 'Binance-style funding fee sistemi',

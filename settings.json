@@ -1,6 +1,6 @@
 {
   "sistem_versiyonu": "2.0",
-  "olusturulma_tarihi": "2025-07-26T10:49:59.672927",
+  "olusturulma_tarihi": "2025-07-26T11:43:58.025932",
   "senaryolar": {
     "Base": {
       "isim": "Base",
@@ -55,10 +55,10 @@
     },
     "Default_Configuration": {
       "isim": "Default Configuration",
-      "aciklama": "Default olarak kaydedildi - 2025-07-26 10:49",
-      "kayit_tarihi": "2025-07-26T10:49:59.672482",
+      "aciklama": "Default olarak kaydedildi - 2025-07-26 11:43",
+      "kayit_tarihi": "2025-07-26T11:43:58.025430",
       "parametreler": {
-        "short_min_oran": -0.01,
+        "short_min_oran": -0.015,
         "short_max_oran": 0.0,
         "short_orta_nokta": 0.45,
         "short_diklik": 10.0,
