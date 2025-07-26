@@ -1,0 +1,114 @@
+{
+  "sistem_versiyonu": "2.0",
+  "olusturulma_tarihi": "2025-07-26T10:49:59.672927",
+  "senaryolar": {
+    "Base": {
+      "isim": "Base",
+      "aciklama": "Güncellenme: 2025-07-26 10:29",
+      "kayit_tarihi": "2025-07-26T10:29:20.262642",
+      "parametreler": {
+        "short_min_oran": -0.02,
+        "short_max_oran": 0.0,
+        "short_orta_nokta": 0.4,
+        "short_diklik": 10.0,
+        "long_min_oran": 0.0,
+        "long_max_oran": 0.02,
+        "long_orta_nokta": 0.6,
+        "long_diklik": 10.0,
+        "gecis_genisligi": 0.03,
+        "min_cap": -0.2,
+        "max_cap": 0.2,
+        "funding_bolgeleri": [
+          {
+            "baslangic": 0.0,
+            "bitis": 0.2,
+            "saat": 1,
+            "etiket": "Ekstrem Short"
+          },
+          {
+            "baslangic": 0.2,
+            "bitis": 0.3,
+            "saat": 4,
+            "etiket": "Short"
+          },
+          {
+            "baslangic": 0.3,
+            "bitis": 0.7,
+            "saat": 8,
+            "etiket": "Normal"
+          },
+          {
+            "baslangic": 0.7,
+            "bitis": 0.8,
+            "saat": 4,
+            "etiket": "Long"
+          },
+          {
+            "baslangic": 0.8,
+            "bitis": 1.0,
+            "saat": 1,
+            "etiket": "Ekstrem Long"
+          }
+        ],
+        "kritik_seviyeler": {}
+      }
+    },
+    "Default_Configuration": {
+      "isim": "Default Configuration",
+      "aciklama": "Default olarak kaydedildi - 2025-07-26 10:49",
+      "kayit_tarihi": "2025-07-26T10:49:59.672482",
+      "parametreler": {
+        "short_min_oran": -0.01,
+        "short_max_oran": 0.0,
+        "short_orta_nokta": 0.45,
+        "short_diklik": 10.0,
+        "long_min_oran": 0.0,
+        "long_max_oran": 0.015,
+        "long_orta_nokta": 0.6,
+        "long_diklik": 10.0,
+        "gecis_genisligi": 0.03,
+        "min_cap": -0.2,
+        "max_cap": 0.2,
+        "funding_bolgeleri": [
+          {
+            "baslangic": 0.0,
+            "bitis": 0.25,
+            "saat": 1,
+            "etiket": "Ekstrem Short"
+          },
+          {
+            "baslangic": 0.25,
+            "bitis": 0.3,
+            "saat": 4,
+            "etiket": "Short"
+          },
+          {
+            "baslangic": 0.3,
+            "bitis": 0.7,
+            "saat": 8,
+            "etiket": "Normal"
+          },
+          {
+            "baslangic": 0.7,
+            "bitis": 0.75,
+            "saat": 4,
+            "etiket": "Long"
+          },
+          {
+            "baslangic": 0.75,
+            "bitis": 1.0,
+            "saat": 1,
+            "etiket": "Ekstrem Long"
+          }
+        ],
+        "kritik_seviyeler": {}
+      }
+    }
+  },
+  "metadata": {
+    "aciklama": "Funding Fee Sistemi Senaryolar",
+    "senaryo_sayisi": 2,
+    "son_guncelleme": "2025-07-26",
+    "kullanim": "Senaryo ismi ile doğrudan yüklenebilir"
+  }
+}
