@@ -9,7 +9,7 @@ def main():
     # Change to script directory
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
     
-    print("🚀 Starting Streamlit application...")
+    print("Starting Streamlit application...")
     
     try:
         # Simple approach - just run streamlit directly
